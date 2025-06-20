@@ -1,2 +1,0 @@
-frappe
-employee_leave_management

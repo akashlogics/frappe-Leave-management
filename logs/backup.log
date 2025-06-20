@@ -1,0 +1,40 @@
+Usage: bench  backup [OPTIONS]
+Try 'bench  backup --help' for help.
+
+Error: Please specify --site sitename
+set -o pipefail; /usr/bin/mariadb-dump --user=_0227e4f043ae50a1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _0227e4f043ae50a1 | /usr/bin/gzip >> ./elm.localhost/private/backups/20250617_180002-elm_localhost-database.sql.gz
+
+Backup Summary for elm.localhost at 2025-06-17 18:00:02.290191
+Config  : /home/akash/frappe-bench/sites/elm.localhost/private/backups/20250617_180002-elm_localhost-site_config_backup.json 127.0B
+Database: /home/akash/frappe-bench/sites/elm.localhost/private/backups/20250617_180002-elm_localhost-database.sql.gz 227.0KiB
+Backup for Site elm.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_0227e4f043ae50a1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _0227e4f043ae50a1 | /usr/bin/gzip >> ./elm.localhost/private/backups/20250618_120002-elm_localhost-database.sql.gz
+
+Backup Summary for elm.localhost at 2025-06-18 12:00:02.562758
+Config  : /home/akash/frappe-bench/sites/elm.localhost/private/backups/20250618_120002-elm_localhost-site_config_backup.json 127.0B
+Database: /home/akash/frappe-bench/sites/elm.localhost/private/backups/20250618_120002-elm_localhost-database.sql.gz 231.6KiB
+Backup for Site elm.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_0227e4f043ae50a1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _0227e4f043ae50a1 | /usr/bin/gzip >> ./elm.localhost/private/backups/20250618_180001-elm_localhost-database.sql.gz
+
+Backup Summary for elm.localhost at 2025-06-18 18:00:02.141205
+Config  : /home/akash/frappe-bench/sites/elm.localhost/private/backups/20250618_180001-elm_localhost-site_config_backup.json 127.0B
+Database: /home/akash/frappe-bench/sites/elm.localhost/private/backups/20250618_180001-elm_localhost-database.sql.gz 232.6KiB
+Backup for Site elm.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_0227e4f043ae50a1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _0227e4f043ae50a1 | /usr/bin/gzip >> ./elm.localhost/private/backups/20250619_120001-elm_localhost-database.sql.gz
+
+Backup Summary for elm.localhost at 2025-06-19 12:00:01.958677
+Config  : /home/akash/frappe-bench/sites/elm.localhost/private/backups/20250619_120001-elm_localhost-site_config_backup.json 127.0B
+Database: /home/akash/frappe-bench/sites/elm.localhost/private/backups/20250619_120001-elm_localhost-database.sql.gz 266.2KiB
+Backup for Site elm.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_0227e4f043ae50a1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _0227e4f043ae50a1 | /usr/bin/gzip >> ./elm.localhost/private/backups/20250619_180002-elm_localhost-database.sql.gz
+
+Backup Summary for elm.localhost at 2025-06-19 18:00:02.837403
+Config  : /home/akash/frappe-bench/sites/elm.localhost/private/backups/20250619_180002-elm_localhost-site_config_backup.json 127.0B
+Database: /home/akash/frappe-bench/sites/elm.localhost/private/backups/20250619_180002-elm_localhost-database.sql.gz 294.4KiB
+Backup for Site elm.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_0227e4f043ae50a1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _0227e4f043ae50a1 | /usr/bin/gzip >> ./elm.localhost/private/backups/20250620_120001-elm_localhost-database.sql.gz
+
+Backup Summary for elm.localhost at 2025-06-20 12:00:02.202581
+Config  : /home/akash/frappe-bench/sites/elm.localhost/private/backups/20250620_120001-elm_localhost-site_config_backup.json 127.0B
+Database: /home/akash/frappe-bench/sites/elm.localhost/private/backups/20250620_120001-elm_localhost-database.sql.gz 297.2KiB
+Backup for Site elm.localhost has been successfully completed

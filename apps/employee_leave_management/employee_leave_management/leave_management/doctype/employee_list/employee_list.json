@@ -52,7 +52,7 @@
  "modified": "2025-07-01 18:02:05.620860",
  "modified_by": "Administrator",
  "module": "leave management",
- "name": "Users List",
+ "name": "Employee List",
  "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [

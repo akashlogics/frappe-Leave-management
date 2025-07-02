@@ -44,7 +44,7 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Employee",
-   "options": "Users List",
+   "options": "Employee List",
    "reqd": 1,
    "unique": 1
   },
@@ -53,7 +53,7 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Approver",
-   "options": "Users List",
+   "options": "Employee List",
    "reqd": 1
   },
   {
@@ -83,7 +83,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-01 18:31:48.893097",
+ "modified": "2025-07-02 10:53:00.823744",
  "modified_by": "Administrator",
  "module": "leave management",
  "name": "leave application",

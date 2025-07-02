@@ -1,25 +1,38 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "M.###",
  "creation": "2025-07-02 10:55:23.013085",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_jk0p"
+  "name1",
+  "email"
  ],
  "fields": [
   {
-   "fieldname": "section_break_jk0p",
-   "fieldtype": "Section Break"
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "reqd": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-02 10:55:23.013085",
+ "modified": "2025-07-02 12:12:20.372386",
  "modified_by": "Administrator",
  "module": "leave management",
  "name": "Managers List",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
